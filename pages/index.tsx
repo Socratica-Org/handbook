@@ -5,6 +5,7 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import BlogPosts from "@/components/BlogPosts";
 import Sidebar from "@/components/Sidebar";
+import Selections from "@/components/Selections";
 
 import { BlogFrontMatter } from "@/lib/types";
 import { getAllPostsWithFrontMatter } from "@/lib/utils";
@@ -21,13 +22,19 @@ export default function Home({ title, posts }: any) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="inline-block flex">
+      <div className="container relative flex space-x-4">
         <Sidebar posts={posts} />
 
-        <section className="">
+        <section className="h-full w-9/12 space-y-56 p-4">
+          <div className="min-h-[50vh] relative">
+            <img src="/orbit-full.png" className="relative block inline" />
+            <h1 className="absolute bottom-80 right-20">Socratica Patterns</h1>
+          </div>
+
           <BlogPosts posts={posts} />
         </section>
-      </main>
+        <Selections posts={posts} />
+      </div>
     </>
   );
 }

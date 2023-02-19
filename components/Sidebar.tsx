@@ -4,7 +4,8 @@ import { BlogPostsProps } from "@/lib/types";
 
 export default function Sidebar({ posts }: BlogPostsProps) {
   return (
-    <section className="w-1/4 max-w-[300px] min-w-[15vw] min-h-[100vh] border-r py-4 mx-4 ">
+    <div className="sticky top-0 col-span-3 h-screen w-3/12 border-r px-8">
+      <img src="/orbit-full.png" className="relative block inline" />
       {posts &&
         posts
           .sort(
@@ -14,15 +15,14 @@ export default function Sidebar({ posts }: BlogPostsProps) {
           )
           .map((post) => {
             return (
-              <article key={post.slug} className="post-title">
+              <div key={post.slug} className="post-title">
                 <Link href={{ pathname: `/${post.slug}` }}>
                   {post.frontMatter.title}
                 </Link>{" "}
                 - {post.frontMatter.subtitle}
-                <p>[ {post.frontMatter.tags.join(", ")} ]</p>
-              </article>
+              </div>
             );
           })}
-    </section>
+    </div>
   );
 }
