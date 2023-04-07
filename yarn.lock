@@ -1845,6 +1845,11 @@ gray-matter@^4.0.3:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+gsap@^3.11.5:
+  version "3.11.5"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.11.5.tgz#97ef65091f43868be387803f9db277e8cd5bd041"
+  integrity sha512-Q89nKCLgoX5xUjznh9LcaIUkz54k1voNucT1Rpf9SJNFIQznBwFqt5qUUQbeVInFyN/n18OUJkpeI6CNEDt74w==
+
 har-schema@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
@@ -3773,6 +3778,11 @@ react-dom@18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-intersection-observer@^9.4.3:
+  version "9.4.3"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-9.4.3.tgz#ec84ce0c25cad548075130ea045ac5c7adf908f3"
+  integrity sha512-WNRqMQvKpupr6MzecAQI0Pj0+JQong307knLP4g/nBex7kYfIaZsPpXaIhKHR+oV8z+goUbH9e10j6lGRnTzlQ==
 
 react-is@^16.13.1:
   version "16.13.1"

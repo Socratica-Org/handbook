@@ -5,7 +5,7 @@ import { BlogPostsProps } from "@/lib/types";
 export default function Sidebar({ posts }: BlogPostsProps) {
   return (
     <div className="sticky top-0 col-span-3 h-screen w-3/12 border-r px-8">
-      <img src="/orbit-full.png" className="relative block inline" />
+      <p className=" my-20   text-[60px]">S</p>
       {posts &&
         posts
           .sort(
