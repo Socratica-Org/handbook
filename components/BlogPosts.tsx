@@ -18,12 +18,11 @@ export default function BlogPosts({ posts }: BlogPostsProps) {
             )
             .map((post) => {
               return (
-                <article key={post.slug} className="post-title">
-                  <Link href={{ pathname: `/${post.slug}` }}>
-                    {post.frontMatter.title}
-                  </Link>{" "}
-                  - {post.frontMatter.subtitle}
-                  <p>[ {post.frontMatter.tags.join(", ")} ]</p>
+                <article key={post.slug} className={post.slug}>
+                  <a href={{ pathname: `/${post.slug}` }}>
+                    <h1>{post.frontMatter.title}</h1>
+                  </a>
+                  <h2>{post.frontMatter.subtitle}</h2>
                   <div>
                     <ReactMarkdown
                       children={post.markdownBody}

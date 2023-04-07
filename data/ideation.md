@@ -1,6 +1,6 @@
 ---
-title: On Hosting
-subtitle: Throwing the best events ever
+title: On Why
+subtitle: Deciding why you even want to do this
 contributors:
   - name: Anson Yu
 section: Section
@@ -9,14 +9,6 @@ tags:
   - react
   - ab testing
 ---
-
-**NAMETAGS**
-
-- Give everyone nametags with a fun fact on it. People love feeling fancy and official. Even if it's hand-written
-
-**NAMETAGS**
-
-- Give everyone nametags with a fun fact on it. People love feeling fancy and official. Even if it's hand-written
 
 **EVERYONE IS A HOST**
 
@@ -29,4 +21,4 @@ tags:
 - Get people to help you set up food etc. at the beginning / clean up chairs etc at the end. Seeing the “behind the scenes” makes people feel like a part of something
 - Encourage people to organize their own Socratica-sponsored events (gym sessions, post-Socratica lunch, movie nights, meditation sessions)
 
-<h1>Checking if this works</h1>
+**ANTI-TROPHY CULTURE**

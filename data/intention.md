@@ -1,5 +1,5 @@
 ---
-title: Vibe checks
+title: On Vibe-Setting
 subtitle: How to make a space feel right
 contributors:
   - name: Anson Yu
